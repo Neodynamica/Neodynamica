@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f neodynamica.jar ]; then
+    java -jar "neodynamica.jar" "$@"
+else
+    echo "neodynamica.jar missing"
+fi
